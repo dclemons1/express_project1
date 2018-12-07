@@ -1,0 +1,20 @@
+.jumbotron{
+    text-align: center;
+    font-size: 100;
+    background: red
+}
+body{
+    text-align: center
+}
+iframe {
+border: solid red;
+display: none;
+}
+.iframe_video{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 5%;
+    margin-left: 3%;
+    margin-right: 3%
+}
